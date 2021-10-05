@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.app-main-wrap,
+.header-wrap,
+.footer-wrap{
+  width: 770px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.header-title {
+  font-size: 1.6rem;
+  color: #0101ed;
+  font-weight: 800;
+  margin-right: 20px;
+}
+
+.header-nav-list {
+  display: flex;
+  line-height: 2;
+}
+
+.header-nav-link {
+  color: #0101ed;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-right: 15px;
+  vertical-align: text-top;
+
+  transition: all .2s ease;
+}
+
+.header-nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+
+  border: none;
+  background-color: #F55E5E;
+  color: #fff;
+  font-size: 1rem;
+  padding: 5px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #D13030;
+}
+
+
+/* Main */
+.app-main-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.app-main {
+  width: 65.8%;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  
+  color: #4a4545;
+}
+
+.main-text {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 50px 0;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.main-picture {
+  width: 500px;
+}
+
+.app-sidebar {
+  width: 27%;
+  border: 1px solid #6F6F6F;
+
+  padding: 1.6rem 1rem;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #5D5D5D;
+}
+
+/* Footer */
+.footer-title {
+  text-align: center;
+
+  font-size: 1.4rem;
+  font-weight: 800;
+
+  margin-bottom: .75rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: .9rem;
+  color: #5D5D5D;
+}
